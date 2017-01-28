@@ -1,15 +1,15 @@
 # Prolong daytime in world by 2x
 every 8 seconds:
-    time in Survival is between 6:30 and 17:30
-    remove 4 seconds from Survival time
+    time in Survival is between 6:30 and 17:30:
+        remove 4 seconds from Survival time
 
 # Horse immunity
 on damage of horse or donkey or mule or skeleton horse or llama:
-    damage cause is suffocation
-    cancel the event
+    damage cause is suffocation:
+        cancel the event
 
 # Disable changing the contents of a mob spawner
 on rightclick on a mob spawner:
-    player is holding a spawn egg
-    message "&7*** Adjustment of spawners is disabled"
-    cancel the event
+    player is holding a spawn egg:
+        message "&7*** Adjustment of spawners is disabled"
+        cancel the event
