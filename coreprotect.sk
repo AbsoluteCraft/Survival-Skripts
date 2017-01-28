@@ -1,0 +1,3 @@
+# Purge CoreProtect data older than 60 days
+every 24 hours:
+    execute command "co purge t:60d"

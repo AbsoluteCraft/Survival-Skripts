@@ -1,0 +1,15 @@
+# Prolong daytime in world by 2x
+every 8 seconds:
+    time in "world" is between 6:30 and 17:30
+    remove 4 seconds from "world"'s time
+
+# Horse immunity
+on damage of house or donkey or mule or skeleton horse or llama:
+    damage cause is suffocation
+    cancel the event
+
+# Disable changing the contents of a mob spawner
+on rightclick on a mob spawner:
+    player is holding a spawn egg
+    message "&7*** Adjustment of spawners is disabled"
+    cancel the event
