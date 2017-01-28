@@ -1,6 +1,6 @@
 # Prolong daytime in world by 2x
 every 8 seconds:
-    time in Survival is day
+    time in Survival is between 6:30 and 17:30:
     remove 4 seconds from Survival time
 
 # Horse immunity
