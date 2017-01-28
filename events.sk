@@ -1,8 +1,3 @@
-# Prolong daytime in world by 2x
-every 8 seconds:
-    time in Survival is day:
-        remove 4 seconds from Survival time
-
 # Horse immunity
 on damage of horse or donkey or mule or skeleton horse or llama:
     damage cause is suffocation:
