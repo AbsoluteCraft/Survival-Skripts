@@ -1,10 +1,10 @@
 # Prolong daytime in world by 2x
 every 8 seconds:
-    time in "world" is between 6:30 and 17:30
-    remove 4 seconds from "world"'s time
+    time in Survival is day
+    remove 4 seconds from Survival time
 
 # Horse immunity
-on damage of house or donkey or mule or skeleton horse or llama:
+on damage of horse or donkey or mule or skeleton horse or llama:
     damage cause is suffocation
     cancel the event
 
